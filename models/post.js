@@ -1,7 +1,7 @@
 // taken and modified from UPENN-VIRT-FSF-FT-07-2022-U-LOLC/14-MVC/01-Activities/28-Stu_Mini_Project/Main/models/User.js
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const { Post } = require('.');
+// const { Post } = require('.');
 
 class Post extends Model {}
 
